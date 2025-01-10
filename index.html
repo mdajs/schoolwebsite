@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everyday Class Notes</title>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #4682b4; /* Intermediate blue background for margins */
+        }
+
+        .content {
+            width: 90%; /* Adjust width as needed */
+            max-width: 1200px;
+            background: linear-gradient(45deg, #000, #002233, #004422, #220044);
+            background-size: 400%;
+            animation: gradient 15s ease infinite;
+            color: #fff;
+            border: 10px solid #4682b4; /* Intermediate blue border around content */
+            box-sizing: border-box;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2rem;
+            background-color: rgba(255, 255, 255, 0.1);
+            margin: 2rem 4rem;
+            border: 2px solid #006699;
+            border-radius: 10px;
+        }
+
+        nav a {
+            display: inline-block;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            color: #fff;
+            margin: 0.5rem;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.2);
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <header>
+            <h1>Everyday Class Notes</h1> 
+        </header>
+
+        <nav>
+            <a href="math.html">Math</a>
+            <a href="physics.html">Physics</a>
+            <a href="chemistry.html">Chemistry</a>
+            <a href="biology.html">Biology</a>
+            <a href="computer_science.html">Computer Science</a>
+            <a href="english_language.html">English Language</a>
+            <a href="english_literature.html">English Literature</a>
+            <a href="bengali.html">Bengali</a>
+            <a href="history.html">History</a>
+            <a href="geography.html">Geography</a>
+            <a href="civics.html">Civics</a>
+            <a href="creator.html">About the Creator</a> <!-- Added link to the creator page -->
+        </nav>
+
+        <footer>
+            <p>&copy; 2025 Everyday Class Notes</p> 
+        </footer>
+    </div>
+</body>
+</html>
+
+
+
